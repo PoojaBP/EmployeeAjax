@@ -91,23 +91,6 @@ function deleteEmp(td) {
         })
     }
 
-
-
-// function deleteEmp(td) {
-//     alert("HIII")
-//    let row = td.parentElement.parentElement;
-//      id = row.cells[0].innerHTML;
-//         row = td.parentElement.parentElement;
-//         document.getElementById("myTable").deleteRow(row.rowIndex);
-//         url = `${baseurl}/${id}`;
-//         fetch(url , {
-//             method  : "DELETE"
-//         }).then(response => {
-//             console.log(response);
-//             getEmployees();
-//         })
-//     }
-
 //for editing
 function onEdit(td) {
     let row = td.parentElement.parentElement;
